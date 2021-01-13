@@ -26,7 +26,7 @@ You can run the application from the command line using:
 mvn clean install
 ```
 ```
-java -jar target/permutations-without-leading-zeros.jar 432
+java -jar target/solution.jar 432
 ```
 or
 ```

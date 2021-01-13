@@ -1,9 +1,9 @@
 package utils;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
-class MathUtilsTest {
+public class MathUtilsTest {
 
     @Test
     public void factorialShouldReturnSuccessfully() {
@@ -14,7 +14,7 @@ class MathUtilsTest {
         final int actual = MathUtils.factorial(n);
 
         // then
-        Assertions.assertEquals(24, actual);
+        Assert.assertEquals(24, actual);
     }
 
 }

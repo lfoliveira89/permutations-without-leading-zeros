@@ -1,9 +1,9 @@
 package tasks.permutation;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
-class PermutationCalculatorTest {
+public class PermutationCalculatorTest {
 
     @Test
     public void calculateNumberOfPermutationShouldReturnSuccessfullyForInputsWithoutLeadingZeroes() {
@@ -15,7 +15,7 @@ class PermutationCalculatorTest {
         final int actual = permutationCalculator.calculateNumberOfPermutation();
 
         // then
-        Assertions.assertEquals(6, actual);
+        Assert.assertEquals(6, actual);
     }
 
     @Test
@@ -28,7 +28,7 @@ class PermutationCalculatorTest {
         final int actual = permutationCalculator.calculateNumberOfPermutation();
 
         // then
-        Assertions.assertEquals(4, actual);
+        Assert.assertEquals(4, actual);
     }
 
 }
